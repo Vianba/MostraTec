@@ -1,0 +1,5 @@
+tkinter
+matplotlib
+skfuzzy
+numpy
+webbrowser

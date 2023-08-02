@@ -5,14 +5,30 @@ Este projeto tem como objetivo mapear os índices de deslizamentos de terra base
 
 ## Usabilidade
 - Acesse a pasta "app"
-    1. Execute o programa clicando 2 vezes no arquivo <strong>test.py</strong>
-    2. Preencha os campos:
+    1. Crie um virtual environment 
+        
+            python3 -m venv ./.mostratec-v1
+    
+    2. Execute a instalação das dependências:
+        
+            pip3 install -r ./requirements.txt
+    
+    3. Inicie o ambiente virtual mostratec-v1
+
+            source ./.mostratec-v1/bin/activate
+    
+    4. Execute o programa clicando 2 vezes no arquivo <strong>test.py</strong>, ou acione o comando a seguir:
+
+            ./test.py
+    
+    5. Preencha os campos:
         - Rainfall
         - Landslope
         - Topsolid Moisture
         - Bottom Soil Moisture
         - Vibration
-    3. A interface do programa a ser exibida será essa:
+    
+    6. A interface do programa a ser exibida será essa:
     <img src="./app/UX MOSTRA DE TECNOLOGIA Desktop Prototype (2).png"/>
 
 ## Resultado Esperado
